@@ -3,7 +3,7 @@ import {Image,Text, View,StyleSheet} from 'react-native'
 import Container from '../components/container/Container'
 import Logo from '../components/logo/Logo'
 import CardWithActions from '../components/Card/CardWithActions'
-
+import InputWithRightButton from '../components/Input/InputWithRightButton'
 
 class LoginScreen extends Component {
   render(){
@@ -11,7 +11,7 @@ class LoginScreen extends Component {
       <Container>
         <Logo version="1.1" />
         <CardWithActions>
-          <Text>Renderizarlo</Text>
+          <InputWithRightButton/>
         </CardWithActions>
       </Container>
     )

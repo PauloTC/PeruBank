@@ -21,14 +21,14 @@ const styles = StyleSheet.create({
     height: height * 0.4,
     width: width * 0.9,
     borderRadius: RADIUS,
-    marginBottom: height * 0.05
+    marginBottom: height * 0.05,
   },
   cardContent: {
     height : height * 0.4 * 0.8,
     backgroundColor: 'rgba(255,255,255,0.9)',
     borderTopLeftRadius: RADIUS,
     borderTopRightRadius: RADIUS,
-    
+    alignItems:'center',
   },
   cardActions: {
     height : height * 0.4 * 0.2,

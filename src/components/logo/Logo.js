@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   text:{
     color: '#049c3c',
     fontSize: 12,
-    marginTop:DEVICE_HEIGHT * 0.1/1.75,
+    marginTop:DEVICE_HEIGHT * 0.1/2,
     marginLeft: 10
   }
 })
